@@ -81,5 +81,3 @@ schema_matching_df.show(truncate=False)
 print("Schema Non Matching DataFrame:")
 schema_non_matching_df.show(truncate=False)
 
-
-
