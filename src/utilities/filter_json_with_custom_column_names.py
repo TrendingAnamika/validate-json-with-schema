@@ -9,8 +9,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # This is an example list of JSON objects. The first two JSON objects contain all the defined fields in the custom schema and should be filtered as schema_matching_df (valid JSON). The last two JSON objects have IDs starting with 'reject_test' and do not contain all the required column names in the custom schema, so they should be filtered as schema_non_matching_df (invalid JSON).
-json_data = """[{"id":1,"name":"Software_1","version":"1.0","active":true,"features":["feature-A","feature-B"],"metadata":{"developer":"Dev-1","release_date":"2024-06-15"}},{"id":2,"name":"Software_2","version":"2.1","active":false,"features":["feature-C","feature-D","feature-E"],"metadata":{"developer":"Dev-2","release_date":"2024-06-15"}},{"id":"rejet_test_1","name":"Software_3","version":"3.0","metadata":{"developer":"Dev-3","release_date":"2024-06-15"}},{"id":"rejet_test_2","name":"Software_4","version":"4.2","active":false,"features":["feature-C"]}]
-"""
+json_data = """[{"id":1,"name":"Software_1","version":"1.0","active":true,"features":["feature-A","feature-B"],"metadata":{"developer":"Dev-1","release_date":"2024-06-15"}},{"id":2,"name":"Software_2","version":"2.1","active":false,"features":["feature-C","feature-D","feature-E"],"metadata":{"developer":"Dev-2","release_date":"2024-06-15"}},{"id":"rejet_test_1","name":"Software_3","version":"3.0","metadata":{"developer":"Dev-3","release_date":"2024-06-15"}},{"id":"rejet_test_2","name":"Software_4","version":"4.2","active":false,"features":["feature-C"]}]"""
 
 
 # Sample DataFrame with a single row which value is a list of JSON.
