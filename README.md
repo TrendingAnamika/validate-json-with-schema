@@ -29,5 +29,5 @@ This repository contains PySpark scripts designed to validate a list of JSON obj
      c). Execute the script using spark-submit or interactively in a PySpark environment.
 
 # 10. Example:
-  See the provided script (filter_json_with_custom_schema.py or filter_json_with_custom_column_names.py) for an example implementation and usage.
+     See the provided script (filter_json_with_custom_schema.py or filter_json_with_custom_column_names.py) for an example implementation and usage.
   
