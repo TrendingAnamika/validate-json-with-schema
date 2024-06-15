@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "stub",
+    "status": "ACTIVE",
+    "isPci": false,
+    "isGdpr": false,
+    "sourceRepository": "https://github",
+    "description": "Invoice",
+    "lastUpdatedOn": "2024-02-27 12:03:22",
+    "serviceTier": "Tier 3",
+    "products": [
+      {
+        "name": "EGE",
+        "domain": "",
+        "capability": ""
+      }
+    ],
+    "department": {
+      "l1DepartmentName": "IT",
+      "l2DepartmentName": "Admin"
+    },
+    "discoverySource": null,
+    "applicationType": {
+      "applicationType": null
+    },
+    "applicationCategory": null,
+    "team": {
+      "name": "product-invoicing",
+      "owner": "Samatar"
+    }
+  },
+  {
+    "id": 2,
+    "name": "stub",
+    "status": "ACTIVE",
+    "isPci": false,
+    "isGdpr": false,
+    "sourceRepository": "https://github",
+    "description": "Invoice",
+    "lastUpdatedOn": "2024-02-27 12:03:22",
+    "serviceTier": "Tier 3",
+    "products": [
+      {
+        "name": "EGE",
+        "domain": "",
+        "capability": ""
+      }
+    ],
+    "department": {
+      "l1DepartmentName": "IT",
+      "l2DepartmentName": "Data"
+    },
+    "discoverySource": null,
+    "applicationType": "test",
+    "applicationCategory": null,
+    "team": {
+      "name": "product-invoicing",
+      "owner": "Samar"
+    }
+  },
+  {
+    "id": 3,
+    "name": "stub",
+    "status": "ACTIVE",
+    "isPci": false,
+    "isGdpr": false,
+    "sourceRepository": "https://github",
+    "description": "Invoice",
+    "lastUpdatedOn": "2024-02-27 12:03:22",
+    "serviceTier": "Tier 3",
+    "products": "name",
+    "department": {
+      "l1DepartmentName": "IT",
+      "l2DepartmentName": "Test"
+    },
+    "discoverySource": null,
+    "applicationType": "",
+    "applicationCategory": null,
+    "team": {
+      "name": "product-invoicing",
+      "owner": "Samar"
+    }
+  },
+  {
+    "id": 4,
+    "name": "new",
+    "status": "ACTIVE",
+    "isPci": false,
+    "isGdpr": false,
+    "sourceRepository": "https://github",
+    "description": "The repo Team",
+    "lastUpdatedOn": "2024-02-27 12:03:59",
+    "serviceTier": "Tier 3",
+    "products": [
+      {
+        "name": "data-monitoring",
+        "status": "ACTIVE"
+      }
+    ],
+    "department": {
+      "l1DepartmentName": "Technology",
+      "l2DepartmentName": "Data"
+    },
+    "discoverySource": null,
+    "applicationType": {
+      "applicationType": null
+    },
+    "applicationCategory": null,
+    "team": {
+      "name": "Data Monitoring",
+      "owner": "Seema Garg"
+    }
+  },
+  {
+    "id": "reject_test_1",
+    "name": "graph",
+    "status": "ACTIVE",
+    "isPci": false,
+    "isGdpr": false,
+    "sourceRepository": "https://github",
+    "description": "graph-property-shell-experience",
+    "lastUpdatedOn": "2024-02-27 10:40:55",
+    "products": [
+      {
+        "name": "-partner-experience",
+        "domain": "Supply Partner"
+      }
+    ],
+    "department": {
+      "l1DepartmentName": "Test"
+    },
+    "discoverySource": null,
+    "team": {
+      "name": "OB Core",
+      "contactDl": "OBCore@test.com",
+      "costCenter": "66040",
+      "owner": "Harish"
+    }
+  },
+  {
+    "id": "reject_test_2",
+    "domain": "Supply Partner",
+    "test": "test"
+  },
+  {
+    "id": "reject_test_3"
+  },
+  {
+    "id": "reject_test_4",
+    "test": "test"
+  }
+]
